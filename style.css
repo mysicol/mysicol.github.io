@@ -12,9 +12,12 @@ h2 {
 
 h3 {
     font-family: "Andada Pro", serif;
-    border-style: none none none none;
-    width: 250px;
-    padding: 0px 0px;
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: rgb(177, 140, 179);
+    width: 100%;
+    padding: 10px 0 10px 0;
+    max-width: 500px;
 }
 
 body p {
@@ -39,6 +42,16 @@ body {
 
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
     transition-duration: 0.5s;
+}
+
+.content h2 {
+    font-style: italic;
+    /* text-decoration: underline; */
+    /* border-style: none none solid none;
+    border-color: rgb(177, 140, 179);
+    border-width: 1px;
+    padding: 0 0 10px 0;
+    width: 300px; */
 }
 
 #topster {
