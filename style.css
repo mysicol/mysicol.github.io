@@ -27,6 +27,10 @@ p {
     font-size: 1.2em;
 }
 
+ol li {
+    font-size: 1.2em;
+}
+
 .content {
     text-align: left;
     width: 95%;
