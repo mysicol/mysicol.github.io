@@ -23,7 +23,7 @@ body p {
 }
 
 body {
-    background-color: #818e5e;
+    background-color: #dae0eb;
     padding: 10px 20px;
 }
 
@@ -38,6 +38,39 @@ body {
 
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
     transition-duration: 0.5s;
+}
+
+.story-media {
+    width:100%;
+    height:200px;
+    margin: 10px 0 10px 0;
+    background-color: rgb(188, 197, 196);
+}
+
+.story-media table {
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.story-media table td {
+    border: solid black;
+    border-width: 0 10px 0 0;
+    padding: 10px 0 10px 0;
+}
+
+.story-media table td:last-of-type {
+    border: none;
+}
+
+.story-author {
+    display: inline-block;
+    width: 20%;
+}
+
+.story-media a {
+    color: black;
+    padding: 0 20% 0 10px ;
 }
 
 .tracklist {
