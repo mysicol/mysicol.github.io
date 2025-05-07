@@ -2,8 +2,8 @@
 h1 {
     font-family: "Noto Sans", sans-serif;
     font-size: 3em;
+    font-style: italic;
     text-align: left;
-    color: #18031a;
     margin: 0 0 20px 0;
 }
 
@@ -21,10 +21,21 @@ h4 {
     font-family: "Noto Sans", sans-serif;
     font-style: italic;
     font-size: 1.2em;
+    color: black;
 }
 
 body {
     font-size: 1.2em;
+    background-color: #faf4f9;
+    padding: 10px 20px;
+    color: #271529f0;
+}
+
+
+p {
+    font-family: "Andada Pro", serif;
+    padding: 0px 0px 0px 0px;
+    color: black;
 }
 
 .content {
@@ -62,17 +73,6 @@ body {
     width: 100%;
     padding: 10px 0 10px 0;
     max-width: 500px;
-}
-
-body p {
-    font-family: "Andada Pro", serif;
-    padding: 0px 0px 0px 0px;
-    color: black;
-}
-
-body {
-    background-color: #faf4f9;
-    padding: 10px 20px;
 }
 
 #topster {
