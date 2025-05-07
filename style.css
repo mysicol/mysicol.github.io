@@ -147,7 +147,7 @@ body {
     padding:5px 5%;
     margin: 5px 0;
     width:10%;
-    border-left: dashed 3px;
+    border-left: solid 1px;
     display:inline-block;
 }
 
